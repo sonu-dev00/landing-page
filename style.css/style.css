@@ -191,11 +191,11 @@ article {
 .cont {
     
     display: flex;
-    gap: 100px ;
+    
     background-color: #3882f6;
     padding: 50px ;
     border-radius: 15px ;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 
