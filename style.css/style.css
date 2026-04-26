@@ -111,4 +111,39 @@ button:hover {
 
 /* end of nav-bar main heading area */
 
+/* section area  */
+section {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
 
+.cards{ 
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 150px ;
+    text-align: center;
+}
+
+/* end of section area */
