@@ -96,7 +96,7 @@ p {
     border: 1px sold black;
 }
 
-button {
+.btn-1 {
   background-color: #3882f6;
   color: white;
   padding: 10px 25px;
@@ -105,14 +105,14 @@ button {
   font-weight: bold;
 }
 
-button:hover {
+.btn-1:hover {
     background-color: #213f6e;
 }
 
 /* end of nav-bar main heading area */
 
 /* section area  */
-section {
+.random {
     margin: 0;
     padding: 0;
     display: flex;
@@ -149,6 +149,8 @@ section {
 
 /* end of section area */
 
+
+
 /* quote section */
 
 article {
@@ -174,3 +176,60 @@ article {
     font-size: 30;
     align-items: center;
 }
+
+/* end of quote sectioin */
+
+
+/* footer  */
+
+.login {
+    padding: 100px; 
+   
+    
+}
+
+.cont {
+    
+    display: flex;
+    gap: 100px ;
+    background-color: #3882f6;
+    padding: 50px ;
+    border-radius: 15px ;
+}
+
+
+
+.sign-info {
+    
+    font-size: 23px;
+    font-weight: bold;
+    color: #e5e7eb;
+}
+
+.extra-info {
+    color: #c2c6d0;
+}
+
+.btn3 {
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  
+}
+
+button {
+    padding: 7px 30px;
+    background-color:#3882f6 ;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 7px;
+    border: 2px solid;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+button:hover {
+    background-color: #5f78a0;
+}
+
